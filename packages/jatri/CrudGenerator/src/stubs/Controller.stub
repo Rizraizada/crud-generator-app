@@ -1,0 +1,34 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\{{modelName}};
+use Illuminate\Http\Request;
+
+class {{modelName}}Controller extends Controller
+{
+    public function index()
+    {
+        // Your code here
+    }
+
+    public function store(Request $request)
+    {
+        // Your code here
+    }
+
+    public function show({{modelName}} ${{modelName}}Id)
+    {
+        // Your code here
+    }
+
+    public function update(Request $request, {{modelName}} ${{modelName}}Id)
+    {
+        // Your code here
+    }
+
+    public function destroy({{modelName}} ${{modelName}}Id)
+    {
+        // Your code here
+    }
+}

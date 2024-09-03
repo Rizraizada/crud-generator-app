@@ -1,0 +1,13 @@
+{
+    "name": "jatri/crud-generator",
+    "type": "library",
+    "description": "A Laravel package for CRUD generation.",
+    "autoload": {
+        "psr-4": {
+            "Jatri\\CrudGenerator\\": "src/"
+        }
+    },
+    "require": {
+        "laravel/framework": "^11.9"
+    }
+}
